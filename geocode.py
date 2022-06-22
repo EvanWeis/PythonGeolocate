@@ -4,7 +4,7 @@ from typing import List
 
 """Google Maps Geocode API script for geolocating addresses as a list of one or n addresses"""
 
-API_KEY = "AIzaSyDWsBpoIK6BhxJSHYeSBoO8YWUrjfxSC3s" #user specific api key
+API_KEY = "" #user specific api key
 data_type = "json" #data type to be returned from google, can also be xml
 
 
