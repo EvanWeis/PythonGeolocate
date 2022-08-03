@@ -2,9 +2,9 @@ import requests
 from urllib.parse import urlencode
 from typing import List
 
-"""Google Maps Geocode API script for geolocating addresses as a list of one or n addresses"""
+"""Google Maps Geocode API script for geocoding addresses as a list of one or n addresses"""
 
-API_KEY = "" #user specific api key
+API_KEY = "AIzaSyCCN_43IPtRSYDvdo1z-pIB-0YmDXRqc5Y" #user specific api key
 data_type = "json" #data type to be returned from google, can also be xml
 
 
@@ -69,9 +69,8 @@ def main():
     print(ma)
     print(" ")
     
-    single_address = ["1600 Amphitheatre Pkwy, Mountain View, CA 94043"]
-    
-    sa = geocode(single_address)
+   
+    sa = geocode(["1600 Amphitheatre Pkwy, Mountain View, CA 94043"])
     print("single address:")
     print(sa)
 
