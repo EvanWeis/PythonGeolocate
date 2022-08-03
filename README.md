@@ -15,8 +15,6 @@ To use the `geocode` function paste your API Key into the API_KEY variable
 Example with multi address:
 ```python
 
-from pygeocode import geocode
-
 multi_address = ["1600 Amphitheatre Pkwy, Mountain View, CA 94043", 
                 "1 Hacker Way, Menlo Park, CA 94025", 
                 "1 Apple Park Way Cupertino, California, 95014"]
